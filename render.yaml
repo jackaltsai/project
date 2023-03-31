@@ -1,6 +1,5 @@
 services:
   - type: web
-    name: Node
     env: Node
     buildCommand: yarn
     startCommand: node app.js
