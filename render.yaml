@@ -1,5 +1,7 @@
 services:
   - type: web
+    runtime: Node
+    name: Node
     env: Node
     buildCommand: yarn
     startCommand: node app.js
